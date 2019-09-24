@@ -1,0 +1,19 @@
+logowanie na stronie, sprawdzanie z baz¹ danych danych do logowania
+szyfrowane has³o Argon 2d
+unikatowy login (w bazie)
+Status u¿ytkownika (zalogowany/nieaktywny)
+System oparty o sesje - przycisk wyloguj
+2 panele: u¿ytkownika i administratora
+Zabezpieczenia sql injection
+Projekt bazy danych
+Dokumentacja
+Systematyczna praca na git
+Responsywna strona
+
+Terminy:
+-Szablon strony www do koñca listopada
+-Projekt bazy 15 listopada
+-System logowania Do ferii
+-Projekt 15.4.2020
+
+temat projektu: nauka angielkiego technicznego
