@@ -1,0 +1,274 @@
+/* Ogólne */
+html {
+  height:100%;
+}
+
+body {
+	background-color: #373737;
+	height:100%;
+	display: flex;
+  flex-direction: column;
+	}
+
+footer {
+	background-color:#2c2c2c;
+	padding: 20px 0px;
+	margin-top: auto;
+  color:white;
+  text-align: center;
+}
+
+
+
+
+/* menu nawigacyjne */
+nav {
+	background-color:#191919;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+  min-height: 70px;
+}
+
+ul.navbar-nav{
+  margin: 0 auto;
+}
+
+li.nav-item{
+  margin-right:25px;
+  font-size: 25px;
+}
+
+a, a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+ #logo {
+  width:40px;
+  height: 40px;
+}
+
+
+
+
+/*Nagłówki*/
+h1{
+		color:white;
+    font-size: 50px;
+}
+
+h2, h3{
+  color:white;
+}
+
+
+
+
+/* Dodatkowe */
+hr{
+  border-top: 3px solid;
+}
+
+.center{
+	text-align: center;
+}
+
+p{
+  color:white;
+  text-align: justify;
+}
+
+
+
+
+/* Dodatkowe marginesy */
+.mtop {
+  margin-top:20px;
+}
+.mbot{
+  margin-bottom: 30px;
+}
+.mrl{
+  margin-left: 50px;
+}
+
+
+
+
+/* Strona główna */
+.maindesc{
+  color:white;
+  margin:50px 0px 80px 0px;
+}
+
+.desc{
+  color:white;
+  margin-bottom: 100px;
+}
+
+.start{
+  margin:30px 0px 0px 150px;
+  width:200px;
+  height:60px;
+}
+
+
+
+
+/* Ucz się */
+.learn{
+  margin-top:50px
+}
+
+.kurs{
+  color:white;
+  font-size: 76px;
+  padding:20px;
+  border:solid 4px #232323 !important;
+  text-align: center;
+  margin-bottom:40px;
+}
+
+.kurs:hover{
+background-color: #191919 !important;
+}
+
+
+
+
+/* kolory dark */
+.btn-dark, .bg-dark {
+background-color: #232323 !important;
+}
+
+.btn-dark:hover {
+background-color: #191919 !important;
+}
+
+.text-dark{
+  color: #232323 !important
+}
+
+.border-dark {
+  border-color:#232323 !important;
+}
+
+
+
+
+/* Kursy */
+.dropdown-btn{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #fff;
+}
+
+aside a, .dropdown-btn {
+  padding: 6px 10px 6px 20px;
+  font-size: 20px;
+  color: #D1D1D1;
+  display: block;
+  background-color: #232323;  /*kolor działów */
+  width: 100%;
+  text-align: left;
+}
+
+.border1{
+  border: solid 1px;
+}
+
+aside a:hover, .dropdown-btn:hover {
+  color: #ffffff;
+}
+
+aside .active {
+  background-color: #191919; /*kolor aktywnego działu */
+}
+
+aside a{
+  background-color: #2c2c2c; /*kolor pod działami */
+}
+
+aside .active{
+  color:white;
+}
+
+.dropdown-divider{
+  margin:0px;
+  border-color:#545454;
+}
+
+.dropdown-container {
+  display: none;
+}
+
+
+
+
+/* Kontakt */
+.info{
+  color:white;
+  font-size:24px;
+}
+
+.faq{
+  color:white;
+  font-size:24px;
+}
+
+.f24{
+  color:white;
+  font-size:24px;
+}
+
+.odp{
+  font-size: 18px;
+  color:#aaa;
+}
+
+.none{
+list-style-type: none
+}
+
+
+
+
+/* Konto */
+.stats, .accountinfo{
+  margin:0px 40px 100px 20px;
+	padding:30px 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+
+/* Logowanie */
+.left{
+	background-color:#373737;
+	padding-top:170px;
+}
+
+.right{
+  background-color:#373737;
+	padding-top:100px;
+}
+
+
+
+/* formularze */
+form{
+	margin:0px 20px 20px 20px;
+	padding:30px 5px;
+  background-color: #373737;
+}
+
+label{
+		color:white;
+		font-size: 25px;
+		width:180px;
+		line-height: 40px;
+}
