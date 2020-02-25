@@ -1,0 +1,14 @@
+table, tr, th, td{
+  border: solid 1px grey;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.red{
+  color:red;
+}
+
+div{
+  margin:15px;
+}
